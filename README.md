@@ -1,11 +1,11 @@
-# QueueZen 🎫
+# QueueZen 
 ### Intelligent Real-Time Queue & Appointment Optimization System
 
 > A full-stack queue management platform for universities, hospitals, banks, and government offices. Built with React, Node.js, MongoDB Atlas, and Socket.IO.
 
 ---
 
-## 🗂 Project Structure
+##  Project Structure
 
 ```
 QUEUEZEN/
@@ -53,7 +53,7 @@ QUEUEZEN/
 
 ---
 
-## ⚡ Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Node.js v18+
@@ -125,7 +125,7 @@ App runs at `http://localhost:3000`
 
 ---
 
-## 🗺 App Flow
+##  App Flow
 
 | URL | Description |
 |-----|-------------|
@@ -137,7 +137,7 @@ App runs at `http://localhost:3000`
 
 ---
 
-## 🔌 API Reference
+##  API Reference
 
 ### Auth
 | Method | Route | Auth | Description |
@@ -165,7 +165,7 @@ App runs at `http://localhost:3000`
 
 ---
 
-## 📡 Real-Time (Socket.IO)
+##  Real-Time (Socket.IO)
 
 **Backend emits:**
 ```js
@@ -181,7 +181,7 @@ Both the **admin dashboard** and **public queue** page subscribe to the same `or
 
 ---
 
-## 🚀 Deployment
+##  Deployment
 
 ### Backend → Render
 1. Create a Web Service on [render.com](https://render.com)
@@ -198,7 +198,7 @@ Both the **admin dashboard** and **public queue** page subscribe to the same `or
 
 ---
 
-## 🔐 Security Features
+##  Security Features
 - **JWT** with 7-day expiry (auto-logout on 401)
 - **bcryptjs** password hashing (12 salt rounds)
 - **Rate limiting**: login (10 req/15min), join queue (5 req/min)
@@ -208,7 +208,7 @@ Both the **admin dashboard** and **public queue** page subscribe to the same `or
 
 ---
 
-## 📊 Improvements Over Original Architecture
+##  Improvements Over Original Architecture
 
 | Area | Original | QueueZen Enhanced |
 |------|----------|-------------------|
